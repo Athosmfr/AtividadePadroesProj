@@ -12,7 +12,7 @@ public class Dragao extends Personagem {
 
 	@Override
 	public int atacar() {
-		return  dano * distancia;
+		return  dano / distancia;
 	}
 	
 }
